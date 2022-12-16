@@ -54,11 +54,15 @@
 "ui.selection" = { bg = "gray" }
 "ui.statusline" = { fg = "white", bg = "bg2" }
 "ui.statusline.inactive" = { fg = "gray", bg = "bg2" }
+"ui.statusline.normal" = { fg = "white", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "black", bg = "green", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "black", bg = "blue", modifiers = ["bold"] }
 # This also represents ':' in Rust, for some reason
 "ui.text" = { fg = "white" }
 "ui.text.focus" = { fg = "blue" }
-"ui.virtual.whitespace" = { fg = "grey_dim" }
 "ui.virtual.ruler" = { bg = "grey_dim" }
+"ui.virtual.whitespace" = { fg = "grey_dim" }
+"ui.virtual.indent-guide" = { fg = "darkgray" }
 "ui.window" = { fg = "gray", bg = "black" }
 
 # From Sonokai
